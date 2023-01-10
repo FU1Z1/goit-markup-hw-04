@@ -3,11 +3,11 @@
 :root {
     --primary-text-color: #212121;
     --white-text-color: #FFFFFF;
-    --blue-text-color: #2196F3;
+    --blue-text-color: #4D5AE5;
     --grey-text-color: #757575;
     --rgb-text-color: rgba(255, 255, 255, 0.6);
     --background-color: #2F303A;
-    --blue-background: #2196F3;
+    --blue-background: #4D5AE5;
     --first-background: #FFFFFF;
     --second-background: #F5F4FA;
     --color-white-border: #ECECEC;
@@ -160,6 +160,13 @@ ul {
     background: var(--background-color);
     text-align: center;
     padding: 200px 0;
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)),
+    url("../images/peopleoffice.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-text {
